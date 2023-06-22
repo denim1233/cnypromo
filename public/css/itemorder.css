@@ -1,0 +1,11 @@
+#claimStubBtn {
+    /* padding-top: 50%; */
+    float: left;
+    margin-top: 1.8vh;
+}
+
+#printButtons a,
+#printButtons button {
+    margin-top: 1.8vh;
+    margin-right: 5px;
+}

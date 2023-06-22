@@ -1,0 +1,76 @@
+div {
+    break-inside: avoid;
+}
+
+img {
+    page-break-inside: avoid;
+}
+
+.container {
+    display: inline;
+    overflow: hidden;
+}
+
+#checkoutContainer {
+    column-count: 2;
+}
+
+.container .row {
+    overflow: hidden;
+}
+
+#menuBtn {
+    display: none;
+}
+#checkoutStubImg {
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 5px;
+}
+#claimStubImg {
+    max-width: 900px;
+    height: auto;
+}
+
+footer {
+    page-break-after: always;
+}
+@media print {
+    div {
+        break-inside: avoid;
+    }
+
+    img {
+        page-break-inside: avoid;
+    }
+
+    .container {
+        display: inline;
+        overflow: hidden;
+    }
+
+    #checkoutContainer {
+        column-count: 2;
+    }
+
+    .container .row {
+        overflow: hidden;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+    #checkoutStubImg {
+        max-width: 450px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    #claimStubImg {
+        max-width: 900px;
+        height: auto;
+    }
+
+    footer {
+        page-break-after: always;
+    }
+}

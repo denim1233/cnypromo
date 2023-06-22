@@ -1,0 +1,200 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+/* .orderno,
+.empname,
+.orderid,
+.itemdesc,
+.itemname,
+.quantity,
+.picklocation {
+    position: absolute;
+} */
+
+.orderno {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    left: 36%;
+    top: 17.5%;
+    color: #f7f7f7;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.coop,
+.claimstub {
+    font-size: 15px;
+}
+
+.empname {
+    position: absolute;
+    top: 36%;
+    left: 107%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.orderid {
+    position: absolute;
+    top: 44%;
+    left: 107%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemname {
+    position: absolute;
+    top: 52%;
+    left: 107%;
+    width: 100%;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemdesc {
+    position: absolute;
+    top: 60%;
+    left: 107%;
+    width: 90%;
+    font-size: 11px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.quantity {
+    position: absolute;
+    top: 69%;
+    left: 107%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.picklocation {
+    position: absolute;
+    top: 78%;
+    left: 107%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/* COOP COPY */
+
+.orderno1 {
+    position: absolute;
+    font-size: 26px;
+    font-weight: bold;
+    left: 12%;
+    top: 17%;
+    color: #f7f7f7;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.empname1 {
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.orderid1 {
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemname1 {
+    font-size: 14px;
+    position: absolute;
+    top: 51%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemdesc1 {
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    width: 30%;
+    font-size: 11px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.quantity1 {
+    position: absolute;
+    top: 67%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.picklocation1 {
+    position: absolute;
+    top: 76%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/* CLAIM STUB */
+.orderno2 {
+    position: absolute;
+    font-size: 26px;
+    font-weight: bold;
+    left: 67%;
+    top: 17%;
+    color: #f7f7f7;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.empname2 {
+    position: absolute;
+    top: 36%;
+    left: 76%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.orderid2 {
+    position: absolute;
+    top: 44%;
+    left: 76%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemname2 {
+    font-size: 14px;
+    position: absolute;
+    top: 51%;
+    left: 76%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.itemdesc2 {
+    position: absolute;
+    top: 58%;
+    left: 76%;
+    width: 25%;
+    font-size: 11px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.quantity2 {
+    position: absolute;
+    top: 67%;
+    left: 76%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.picklocation2 {
+    position: absolute;
+    top: 76%;
+    left: 76%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
